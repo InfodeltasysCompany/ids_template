@@ -1,0 +1,10 @@
+/* Main container for custom website section */
+.swiper-container {
+    display: flex;
+    justify-content: center; /* Center content */
+    align-items: center;
+    height: 500px;
+    flex-direction: row;
+  }
+  
+  

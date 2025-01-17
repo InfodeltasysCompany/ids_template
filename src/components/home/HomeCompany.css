@@ -1,0 +1,99 @@
+/* Container for the home company section */
+.home-company-container {
+    width: 100%;
+    height: 650px;
+    padding: 50px 20px;
+    /* background-color: #f4f4f4; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+    background-color: bisque;
+    box-shadow: 10px 10px 5px 10px gray;
+  }
+ 
+  .home-image-container{
+    height: 100%;
+    width: 40%;
+    /* padding: 10%; */
+
+  }
+  .home-company-content{
+    height: 100%;
+    width: 60%;
+    padding: 0 10px;
+  }
+  .text-content{
+    width: 100%;
+    height: 100%;
+  }
+  .home-text-content-title{
+    font-size: 32px;
+    text-align: left;
+  }
+  .home-text-content-subtitle{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .home-text-content-disc1{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .home-text-content-disc2{
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  .home-text-content-contact-btn{
+    height: 60px;
+    width: 260px;
+    background-color: rgb(92, 92, 245);
+    color: white;
+    /* border: none; */
+    margin-top: 25px;
+    transition: all .2s ease-in-out;
+  }
+  .home-text-content-contact-btn:hover{
+    background-color: blue;
+    border-radius: 40px;
+    box-shadow: 3px 3px 3px lightblue;
+    color: white;
+
+  }
+  .contact-button{
+    height: 100%;
+    width: 100%;
+    /* background-color: gray; */
+    background-color: transparent;
+    /* border-radius: 0 40px 0 40px; */
+
+  }
+  button{
+    border: none;
+    font-size: 23px;
+    color: white;
+  }
+  @media (max-width:900px) {
+    .home-company-container{
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+
+    }
+    img{
+        width: 100%;
+    }
+    .home-image-container{
+        height: 35%;
+        width: 100%;
+        background-color: gray;
+    }
+    .home-company-content{
+        width: 100%;
+    }
+    .text-align-center{
+        text-align: left;
+    }
+  }

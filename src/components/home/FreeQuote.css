@@ -1,0 +1,145 @@
+/* Container for the quote section */
+.quote-container {
+  height: auto;
+  min-height: 500px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+/* Top content section */
+.quote-top-content {
+  min-height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+h1 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Button in the top section */
+.top-button {
+  border: none;
+  height: 50px;
+  width: 180px;
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Flex container for the quote box items */
+.quote-box-items {
+  /* flex-grow: 1; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Each individual quote box item */
+.quote-box-item {
+  width: 350px;
+  box-shadow: 10px 10px 10px #ddd;
+  border: 2px solid gainsboro;
+  margin: 25px;
+  padding: 15px;
+  border-radius: 45px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Default (non-hovered) content */
+.quote-box-item .normal {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: 10px;
+
+}
+
+/* Title and description inside the normal content */
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.disc {
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Button styling */
+.free-quote-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.free-quote-btn:hover {
+  background-color: rgb(88, 84, 84);
+}
+
+/* Initially hide the free quote button */
+.free-quote-btn-box {
+  display: none;
+  opacity: 0; /* Start as invisible */
+  transition: opacity 0.3s ease;
+}
+
+/* Hover effect on the quote box item */
+.quote-box-item:hover {
+  transform: translateY(-10px); /* Shift the item up */
+  box-shadow: 15px 15px 20px #bbb; /* Add a stronger shadow on hover */
+}
+
+.quote-box-item:hover .free-quote-btn-box {
+  display: block;
+  opacity: 1; /* Fade in the button */
+}
+
+/* Additional styling for better responsiveness */
+.quote-box-items {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.quote-box-item {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out, padding 0.3s ease;
+}
+
+.quote-box-item:hover {
+  transform: translateY(-15px); /* Adjust shift effect */
+  padding-bottom: 30px; /* Add space at the bottom for the button */
+}
+@media (max-width:900px) {
+ 
+  .quote-box-item{
+    width: 100%;
+  }
+}

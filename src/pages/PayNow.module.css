@@ -1,0 +1,82 @@
+/* Container for the entire PayNow section */
+.container {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Form content style */
+.formcontent {
+   background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    padding: 20px;
+    width: 80%; /* Form content width is 80% of the container */
+    /* max-width: 400px; Max width to avoid stretching too wide */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Center the text */
+}
+
+/* Input field styles */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styles */
+button {
+    height: 50px;
+    width: 100%;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column; /* Stack the image and form vertically on smaller screens */
+        height: auto; /* Allow container height to adjust dynamically */
+    }
+
+    img {
+        width: 100%; /* Make image take the full width on small screens */
+        height: 50%; /* Adjust image height */
+    }
+
+    .formcontent {
+        width: 100%; /* Increase width of form */
+        /* max-width: 350px; Slightly smaller max-width */
+        top: 60%; /* Adjust the form position */
+    }
+}
+
+@media (max-width: 768px) {
+    img {
+        height: 40%; /* Further adjust the image size on very small screens */
+    }
+
+    .formcontent {
+        width: 100%; /* Make the form content take more width */
+        /* max-width: 300px; Make form even smaller */
+        top: 55%; /* Adjust the form position more */
+    }
+
+    button {
+        font-size: 16px; /* Reduce button font size */
+        height: 45px; /* Adjust button height for small screens */
+    }
+}

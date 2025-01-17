@@ -1,0 +1,106 @@
+/* Container for the procedure section */
+.home-procedure {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Flex container for cards */
+.procedure-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styling for individual procedure card */
+.procedure-card {
+  width: 340px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  overflow: hidden;
+  height: 250px;
+  transition: all 0.5s ease-in;
+}
+
+/* Hover effect for cards */
+.procedure-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Default (non-hovered) content */
+.normal {
+  flex-grow: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* Card description styling */
+.card-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Hovered content: Contact Us button */
+.hovered {
+  display: none;
+}
+
+/* Button styling */
+.contact-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Show the "Contact Us" button on hover */
+.procedure-card:hover .hovered {
+  display: block;
+}
+
+/* For responsiveness: Make cards stack on smaller screens */
+@media (max-width: 768px) {
+  .procedure-card {
+    width: 100%;
+    padding: 2rem 0.5rem;
+    
+  }
+}
