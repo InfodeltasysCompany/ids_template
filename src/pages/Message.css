@@ -22,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* background-color: gainsboro; */
 }
 
 /* Contact Us button */
@@ -57,7 +58,9 @@
 /* Modal overlay (fixed on the right side) */
 .modal-overlay {
     position: fixed;
-    right: 30px;
+    right: 0;
+    bottom: 0.3rem;
+    /* left: 0.5rem; */
     /* Align the modal to the right side */
     bottom: -90px;
     width: 40%;
@@ -186,11 +189,12 @@ h3 {
 }
 
 .input-number {
-    height: 25px;
+    height: 2rem;
     width: 100%;
     margin-top: 5px;
 
 }
+
 
 .message-content {
     height: 80px;
@@ -204,6 +208,7 @@ h3 {
     width: 100%;
     overflow: scroll;
     margin: 15px 0;
+    /* background-color: gray; */
 }
 
 @media (max-width:500px) {

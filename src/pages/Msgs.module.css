@@ -1,0 +1,30 @@
+/* Styles for message container */
+.msgContainer {
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  /* Styles for user message */
+  .userMsg {
+    text-align: right;
+    background-color:aqua;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 60%;
+    margin-left: auto;
+  }
+  
+  /* Styles for receiver message */
+  .receiverMsg {
+    text-align: left;
+    background-color:beige;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    max-width: 60%;
+    margin-right: auto;
+  }
+  
