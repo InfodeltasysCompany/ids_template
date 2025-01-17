@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/ids_template/static/css/main.18d806da.css",
+    "main.js": "/ids_template/static/js/main.db47be57.js",
+    "static/js/488.4f2b76ab.chunk.js": "/ids_template/static/js/488.4f2b76ab.chunk.js",
+    "static/media/swecompany.gif": "/ids_template/static/media/swecompany.5ccca643e41c188b766a.gif",
+    "static/media/travelling.jpg": "/ids_template/static/media/travelling.075d9846abeca4f4ecfe.jpg",
+    "static/media/payfund1.png": "/ids_template/static/media/payfund1.b51a8744411345449511.png",
+    "static/media/social_website.jpg": "/ids_template/static/media/social_website.17dde5b702e4ca6015c2.jpg",
+    "static/media/contact-us-image.png": "/ids_template/static/media/contact-us-image.07619f6f098f1d45acaf.png",
+    "static/media/moderweb.png": "/ids_template/static/media/moderweb.610d224695763ae6c02c.png",
+    "static/media/marketting1.jpg": "/ids_template/static/media/marketting1.3f9c6362365813fd22b6.jpg",
+    "static/media/education (2).jpg": "/ids_template/static/media/education (2).c1f043e74aaa4ceba8b6.jpg",
+    "static/media/e-commerce.jpg": "/ids_template/static/media/e-commerce.9ccd3e480c1580d62698.jpg",
+    "static/media/customwebsite2.jpg": "/ids_template/static/media/customwebsite2.b9af2b66e8287e06353b.jpg",
+    "static/media/time.jpg": "/ids_template/static/media/time.3b9191d441f88894e05e.jpg",
+    "static/media/contact-us-form-side.jpeg": "/ids_template/static/media/contact-us-form-side.f0ae47a04d1f3c11f0ac.jpeg",
+    "index.html": "/ids_template/index.html",
+    "main.18d806da.css.map": "/ids_template/static/css/main.18d806da.css.map",
+    "main.db47be57.js.map": "/ids_template/static/js/main.db47be57.js.map",
+    "488.4f2b76ab.chunk.js.map": "/ids_template/static/js/488.4f2b76ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18d806da.css",
+    "static/js/main.db47be57.js"
+  ]
+}
