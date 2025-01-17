@@ -20,7 +20,7 @@ function Header() {
 
       {/* Navigation bar */}
       <nav ref={ref}>
-        <Link to="/" className={Styles.link} onClick={showmenubar}>Home</Link>
+        <Link to="/ids_template" className={Styles.link} onClick={showmenubar}>Home</Link>
         <Link to="/Services" className={Styles.link} onClick={showmenubar}>Services</Link>
         {/* <Link to="/Projects" className={Styles.link} onClick={showmenubar}>Projects</Link> */}
         {/* <Link to="/Blog" className={Styles.link} onClick={showmenubar}>Blog</Link> */}

@@ -20,7 +20,7 @@ function App() {
       <Header />
       <Message/>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ids_template" element={<Home />} />
         <Route path="/About-Company" element={<AboutUs />} />
         <Route path="/Services" element={<Services />} />
         <Route path="/Carreer" element={<Carrier />} /> {/* Corrected path */}
